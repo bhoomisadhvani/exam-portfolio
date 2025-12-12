@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.nav{
+    height: 7vh;
+    width: 100vw;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(12, 12, 77);
+   
+}
+
+
+.navbar{
+    
+   color: white;
+    text-decoration: none; 
+    font-size: 23px;
+   
+    padding: 30px;
+  
+}
+
+.img{
+    height: 75vh;
+    width: 100vw;
+    margin-top: 40px;
+    position:relative;
+    
+   
+}
+
+.portfolio{
+    color: white;
+    font-size: 4rem;
+    font-family:'Times New Roman', Times, serif;
+    position: absolute;
+    top: 40vh;
+    right: 66vh;
+
+}
+
+.services {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    padding: 50px ;
+    text-align: center;
+}
+.ser{
+    color: black;
+    font-size: 3rem;
+}
+.lorem{
+    color: black;
+    font-size: 1.5rem;
+}
+
+.service-box {
+    padding: 20px;
+}
+
+.icon {
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #ff0080, #a000f8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    color: white;
+}
+
+.service-box h3 {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.service-box p {
+    color: #555;
+    font-size: 2rem;
+   
+}
+
+.gallery{
+    width: 20%;
+    height: 8vh;
+    display: grid;
+    gap:40px;
+    padding: 30px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.blog{
+
+    margin-top: 740px;
+    color: black;
+    font-weight: bold;
+    font-size: 3rem;
+
+}
+.blog-section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 70px;
+}
+
+
+.flowers img{
+    width: 85%;
+    
+    padding: 50px;
+   
+}
+.gen{
+    margin-bottom:8px;
+}
+.flowers h3 {
+    color: gray;
+    font-size: 2.5rem;
+   
+    
+}
+.flowers p{
+    color: black;
+    font-size: 1.5rem;
+}
+.flowers h1 {
+    color: black;
+    font-size: 2rem;
+
+}
